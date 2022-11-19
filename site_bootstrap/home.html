@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <title>Document</title>
+</head>
+<body>
+   
+    <script src="bootstrap/js/bootstrap.bundle.min.js   "></script>
+
+<!--menu-->   
+<nav class="navbar col-12 position-fixed navbar-expand-lg navbar-dark bg-dark" style="z-index: 999;">
+        <div class="container-fluid col-11 m-auto">
+          <a class="navbar-brand" href="#">SNEAKERHEAD</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="home.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#produtos">produtos</a>
+                <li class="nav-item">
+                  <a class="nav-link" href="calendario.html">Calendário</a>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#footer">direitos</a>
+                
+            
+              </li>
+         
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--fim do menu-->
+    
+      <!--carrosel-->
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/air force1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/air max travis.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/air jordan psg.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/ASISC GEL-LYTE 3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!--fim do carrosel-->
+
+     
+      <!--grid card-->
+      <div id="produtos" class="row row-cols-1 row-cols-md-2 g-4 col-11 m-auto">
+        <div class="col">
+          <div class="card">
+            <img class="imagem1" src="img/newbalance.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">NEW BALANCE 327 LÁMEN</h5>
+                    <!-- inicio codigo modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  COMPRAR
+</button>
+
+<!-- Modal -->
+
+
+   
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="imagem1" src="img/AIR MAX FAMILIA.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">AIR MAX SOMOS FAMILIA </h5>
+               <!-- inicio codigo modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  COMPRAR
+</button>
+
+<!-- Modal -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="imagem1" src="img/Tenis-Adidas-Superstar-Azul.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">ADIDAS SUPERSTAR AZUL </h5>
+               <!-- inicio codigo modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  COMPRAR
+</button>
+
+<!-- Modal -->
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card">
+            <img class="imagem1"  src="img/Tenis-Puma-Suede-Croc-Preto.webp" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">PUMA SUEDE PRETO</h5>
+               <!-- inicio codigo modal-->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
+  COMPRAR
+</button>
+
+<!-- Modal -->
+            </div>
+          </div>
+        </div>
+      </div>
+<!--fim do grid card-->
+
+
+    <!--conteudo-->
+
+    <br><br>
+    <hr class="col-11 m-auto"/>
+    <div id="conteudo" class="col-11 m-auto">
+      <img height="40%" width="30%" src="img/nike-ambush.jpg" alt="">
+      <img height="40%" width="30%" src="img/vans-vault-x-brain-dead.jpg" alt="">
+      <img height="40%" width="30%" src="img/sale-2022-1.jpg" alt="">
+      
+    </div>
+    <hr class="col11-m-auto">
+    <br><br> 
+<!-- fim do conteudo-->
+
+<!--rodapé-->
+
+<footer id="footer" class="page-footer p-5 col-11 m-auto"
+style="background-color: #333;">
+<div class="text-center">
+  <a href="#">cruzati@outlook.com</a>
+</div>
+</footer>
+</html>
